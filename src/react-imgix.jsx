@@ -193,7 +193,7 @@ function buildSrc({
 }
 
 /**
- * Use the PerfomanceObser API to warn if an LCP element is loaded lazily.
+ * Use the PerformanceObserver API to warn if an LCP element is loaded lazily.
  */
 function watchForLazyLCP(imgRef) {
   if (
